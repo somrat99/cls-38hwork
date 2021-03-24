@@ -21,6 +21,9 @@
     .menubar ul {
         text-align: center;
     }
+    .menubar ul li a{
+        border: none;
+    }
     .banner {
         padding: 155px;
     }
@@ -186,6 +189,8 @@
     height: 20px;
     opacity: 0;
     cursor: pointer;
+    position: absolute;
+    top: 29px;
 }
 .menubar span {
     position: absolute;
@@ -208,6 +213,7 @@
     }
     .menubar {
         text-align: left;
+        padding: 15px 0;
     }
     .menubar span{
         display: block;
