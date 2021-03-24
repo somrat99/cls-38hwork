@@ -1,0 +1,225 @@
+@media all and (max-width:1200px) {
+    .fixed-width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px !important;
+        box-sizing: border-box;
+    }
+}
+@media all and (max-width:992px) {
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .menubar {
+        width: 100%;
+        text-align: center;
+    }
+    .menubar ul {
+        text-align: center;
+    }
+    .banner {
+        padding: 155px;
+    }
+    .banner-section h1 {
+        padding: 4px 20px;
+        margin-top: 25px;
+        font-size: 29px;
+    }
+    .banner-section h2 {
+        padding: 4px 7px;
+        font-size: 22px;
+    }
+    .about {
+        padding: 37px 0;
+    }
+    .about h2 {
+        font-size: 29px;
+        margin-bottom: 12px;
+    }
+    .about p {
+        max-width: 580px;
+        font-size: 17px;
+    }
+    .service-item {
+        padding: 23px 8px;
+    }
+    .service-item span {
+        height: 55px;
+        width: 55px;
+        font-size: 30px;
+        line-height: 55px;
+        border-radius: 19px 0 19px 0;
+    }
+    .service-item h3 {
+        margin: 12px 0;
+        font-size: 22px;
+    }
+    .blog-item img {
+        width: 94px;
+    }
+    .blog-right-section ul li {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+@media all and (max-width:768px) {
+    .banner {
+        padding: 115px;
+    }
+    .menubar ul li a {
+        font-size: 17px;
+        padding: 0 15px;
+        line-height: 40px;
+    }
+    .banner-section h2 {
+        padding: 4px 7px;
+        font-size: 20px;
+    }
+    .banner-section h1 {
+        padding: 4px 20px;
+        margin-top: 18px;
+        font-size: 23px;
+    }
+    .about {
+        padding: 25px 0;
+    }
+    .about h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+    .about p {
+        max-width: 500px;
+        font-size: 15px;
+    }
+    .service {
+        padding: 45px;
+    }
+    .service-item {
+        width: 90%;
+        margin: 15px auto ;
+        float: none;
+    }
+    .blog-right-section {
+        float: none;
+        width: 75%;
+    }
+    .blog-left-section {
+        float: none;
+        width: 100%;
+    }
+    .footer-right {
+        width: 30%;
+    }
+    .footer-left {
+        width: 60%;
+    }
+    .footer-left {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        float: none;
+    }
+    .footer-right {
+        width: 100%;
+        margin-top: 12px;
+        text-align: center;
+        float: none;
+    }
+    .social-menu {
+        text-align: center;
+    }
+}
+@media all and (max-width:576px) {
+    .menubar ul li a {
+        padding: 0 10px;
+        line-height: 50px;
+        border: none;
+        line-height: 0;
+    }
+    .logo {
+        padding-bottom: 5px;
+    }
+    .logo a {
+        font-size: 35px;
+    }
+    .menubar {
+        padding-bottom: 5px;
+    }
+    .menubar ul li a:hover {
+        background-color: none;
+    }
+    .banner-section h2 {
+        padding: 4px 7px;
+        font-size: 14px;
+    }
+    .about {
+        padding: 22px 0;
+    }
+    .about h2 {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .about p {
+        max-width: 412px;
+        font-size: 15px;
+    }
+    .service-item {
+        width: 70%;
+    }
+}
+/* defult css */
+.menubar span{
+    display: none;
+}
+.menubar .mobile-menu-check:checked ~ ul{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+
+}
+.mobile-menu-check {
+    width: 50px;
+    height: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+.menubar span {
+    position: absolute;
+    top: 24px;
+    right: 63px;
+    left: 32px;
+    pointer-events: none;
+}
+@media all and (max-width:450px) {
+    .menubar ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .logo {
+        padding: 0;
+    }
+    .logo a {
+        font-size: 25px;
+    }
+    .menubar {
+        text-align: left;
+    }
+    .menubar span{
+        display: block;
+    }
+    .menubar ul li a {
+        font-size: 14px;
+    }
+    .menubar ul li {
+        display: block;
+        width: 200px;
+    }
+    
+}
+
+/* end */
